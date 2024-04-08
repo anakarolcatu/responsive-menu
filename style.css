@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #a435f0;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+
+.menu__container {
+    display: flex;
+    justify-content: space-around;list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 390px) {
+   .menu {
+    float: left;
+    height: 100vh;
+    width: 30%;
+   }
+
+   .menu__container {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+   }
+}
